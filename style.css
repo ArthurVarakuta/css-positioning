@@ -1,0 +1,46 @@
+*{
+    --border:1px solid brown;
+  --height-width:150px;
+  --bg-color:coral;
+}
+.background {
+  min-height: 100vh;
+  background-color: aquamarine;
+}
+.block1 {
+  border: var(--border);
+  height: var(--height-width);
+  width: var(--height-width);
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.block2 {
+  border: var(--border);
+  height: var(--height-width);
+  width: var(--height-width);
+  background-color: var(--bg-color);
+  position: fixed;
+  left: 0px;
+  bottom: 0px;  
+}
+.block3 {
+  border: var(--border);
+  height: var(--height-width);
+  width: var(--height-width);
+  background-color: var(--bg-color);
+  position: fixed;
+  right: 0px;
+  bottom: 0px;  
+}
+.block4 {
+  border: var(--border);
+  height: var(--height-width);
+  width: var(--height-width);
+  background-color: var(--bg-color);
+  position: fixed;
+  top: right;  
+  right: 0px;
+}
+
